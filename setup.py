@@ -12,7 +12,7 @@ setup(
    description = 'Project to build a CLI tool to extract foreign exchange references rates using the Frankfurter API',
    long_description = long_description,
    long_description_content_type = "text/markdown",
-   #url = '<github url where the tool code will remain>',
+   url = 'https://github.com/YSAREEN/FX_CLI',
    py_modules = ['FX_Rate_tool'],
    packages = find_packages(),
    install_requires = [requirements],
