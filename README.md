@@ -63,5 +63,10 @@ For the next steps, I uploaded the binaries to the test environment in https://t
 ## Installing and Deploying the tool
 Finally, a global link will be created which we can use to run the command from anywhere now. We can use the below command to install the tool
 `pip install -i https://test.pypi.org/simple/ FX-Rate-tool==0.0.4`
-  
+ 
+ ## References
+ https://click.palletsprojects.com/en/8.0.x/
+ https://click.palletsprojects.com/en/8.0.x/testing/ (for testing)
+ https://packaging.python.org/tutorials/installing-packages/
+ https://pip.pypa.io/en/stable/cli/pip_wheel/
 
