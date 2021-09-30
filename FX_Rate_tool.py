@@ -19,10 +19,8 @@ def history(start, end, base, symbol,output):
    now = datetime.now()
 
    '''
-       DateValidation 1: if default is weekend, default it to last friday
-       DateValidation 2: Validate if date is in format YYYY-MM-DD
-       Add Output Param: to output to cli or to file - based on param call separate method for file output
-       Format Output: Output formatting should also be in a separate method.
+       Command to provide historical fx rate data between base and quote currencies
+       
    '''
    if start is None or start == "":
        start = now.strftime("%Y-%m-%d")
@@ -84,10 +82,8 @@ def convert(start, base, symbol, amount):
    now = datetime.now()
 
    '''
-       DateValidation 1: if default is weekend, default it to last friday
-       DateValidation 2: Validate if date is in format YYYY-MM-DD
-       Add Output Param: to output to cli or to file - based on param call separate method for file output
-       Format Output: Output formatting should also be in a separate method.
+       Command to provide conversion fx rate data between base and quote currency
+       
    '''
    if start is None or start == "":
        start = now.strftime("%Y-%m-%d")
