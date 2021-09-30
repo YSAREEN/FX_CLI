@@ -66,7 +66,13 @@ Finally, a global link will be created which we can use to run the command from 
  
  ## References
  https://click.palletsprojects.com/en/8.0.x/
+ 
+ 
  https://click.palletsprojects.com/en/8.0.x/testing/ (for testing)
+ 
+ 
  https://packaging.python.org/tutorials/installing-packages/
+ 
+ 
  https://pip.pypa.io/en/stable/cli/pip_wheel/
 
